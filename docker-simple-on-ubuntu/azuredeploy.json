@@ -59,7 +59,7 @@
     "publicIPAddressName": "myPublicIPD",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
-    "vmName": "MyDockerVM123",
+    "vmName": "vrj-cloud-dev",
     "virtualNetworkName": "MyVNETD",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
